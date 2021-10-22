@@ -1,0 +1,58 @@
+/*NOTE GLOBAL */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 16px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.clear {
+  clear: both;
+}
+/*NOTE HEADER */
+/*NOTE HEADER BANNER */
+.header__logoImg {
+  float: left;
+}
+
+.header__slogan {
+  float: right;
+  margin-right: 120px;
+}
+
+/*NOTE HEADER NAVBAR */
+.header ul {
+  list-style: none;
+  border-top: 1px solid #e8e8e8;
+  border-bottom: 1px solid #e8e8e8;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.header__navbar ul li {
+  display: inline;
+}
+/* xài padding vì trên layout đường underline dài hơn kích thước chữ, nên làm vô thẻ a luôn */
+.header__navbar ul a {
+  text-decoration: none;
+  text-transform: uppercase;
+
+  color: #636363;
+  font-weight: bold;
+  /* 1 vw = 1% so với kích thước màn hình */
+  font-size: 1.13vw;
+
+  /* 1 em = 1 current font size gần nhất */
+  padding: 0 0.3em;
+}
+
+.header__navbar ul li:hover {
+  border-bottom: solid 2px #b31c25;
+}
+
+.header__navbar ul .active {
+  border-bottom: solid 2px #b31c25;
+}
