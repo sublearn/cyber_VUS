@@ -105,14 +105,41 @@ h2 {
 }
 
 .programs__item h3 {
-  color: red;
+  color: #b31c25;
   font-size: 16px;
   text-transform: uppercase;
   margin: 10px 0 5px;
 }
 
-.programs__item p{
+.programs__item p {
   color: #636363;
   margin: 0;
   font-size: 14px;
+}
+
+/* NOTE FOOTER */
+/* TODO 
+  fix lại cấu trúc footer 
+  repsonsive footer logo
+*/
+/* https://www.lockedownseo.com/parent-div-100-height-child-floated-elements/ */
+.footer {
+  background-color: #b31c25;
+  color: white;
+  /* Fixed */
+  /* overflow: auto; */
+  /* height: auto; */
+  padding: 20px 50px;
+}
+
+.footer img {
+  float: left;
+  /* display: inline-block; */
+}
+
+.footer p {
+  float: right;
+  width: 50%;
+  word-spacing: 2px;
+  text-align: justify;
 }
