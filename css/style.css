@@ -126,6 +126,7 @@ h2 {
 .news__right {
   float: left;
   width: 50%;
+  padding: 0 10px;
 }
 
 .news__text img {
@@ -169,7 +170,7 @@ h2 {
 .news__small-item{
   float: left;
   width: 50%;
-  padding: 0 5px 5px;
+  padding: 0 10px 5px;
 }
 
 /* NOTE FOOTER */
